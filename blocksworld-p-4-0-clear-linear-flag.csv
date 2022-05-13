@@ -1,0 +1,125 @@
+((clear b2) (on-table b3) (on b1 b3) (holding b4) (on b2 b1));-3
+((clear b1) (on b4 b2) (arm-empty) (on-table b3) (clear b4) (on-table b1) (on-table b2) (clear b3));0
+((on-table b4) (on b2 b4) (clear b1) (arm-empty) (on-table b3) (clear b3) (on b1 b2));0
+((clear b1) (on b1 b3) (on-table b2) (holding b4) (on b3 b2));-1
+((on-table b4) (on b2 b4) (clear b2) (clear b1) (arm-empty) (on-table b3) (on-table b1) (clear b3));0
+((on-table b4) (clear b2) (arm-empty) (on-table b3) (on b1 b3) (clear b4) (on b2 b1));-2
+((on b4 b1) (arm-empty) (on-table b3) (on b2 b3) (clear b4) (on b1 b2));-2
+((on-table b4) (clear b2) (clear b1) (arm-empty) (on-table b3) (on b2 b3) (clear b4) (on-table b1));0
+((on b1 b4) (clear b1) (on b4 b2) (arm-empty) (on-table b3) (on-table b2) (clear b3));0
+((on b4 b1) (on-table b3) (clear b4) (on-table b1) (clear b3) (holding b2));-3
+((on-table b4) (on b2 b4) (clear b1) (arm-empty) (on b1 b3) (on b3 b2));0
+((clear b1) (arm-empty) (clear b4) (on-table b1) (on-table b2) (on b4 b3) (on b3 b2));0
+((clear b2) (on b4 b1) (arm-empty) (on b2 b3) (on-table b1) (on b3 b4));-6
+((on-table b4) (clear b1) (clear b2) (arm-empty) (on b1 b3) (on-table b2) (on b3 b4));0
+((on-table b4) (clear b2) (arm-empty) (on b1 b3) (on b3 b4) (on b2 b1));-2
+((on-table b4) (clear b2) (on b1 b4) (on b2 b1) (holding b3));-3
+((clear b2) (on b4 b1) (arm-empty) (on-table b3) (on b1 b3) (clear b4) (on-table b2));-2
+((on-table b4) (clear b1) (on b1 b3) (on b3 b4) (holding b2));-1
+((on-table b4) (clear b2) (arm-empty) (on b2 b3) (clear b4) (on-table b1) (on b3 b1));-4
+((arm-empty) (clear b4) (on-table b1) (on b4 b3) (on b2 b1) (on b3 b2));-6
+((clear b1) (on b4 b2) (arm-empty) (on-table b3) (on b1 b3) (clear b4) (on-table b2));0
+((on b1 b4) (clear b1) (clear b2) (arm-empty) (on-table b3) (on-table b2) (on b4 b3));0
+((on-table b4) (clear b1) (on-table b3) (on b1 b3) (clear b4) (holding b2));-1
+((clear b2) (arm-empty) (clear b4) (on-table b1) (on-table b2) (on b4 b3) (on b3 b1));-4
+((clear b2) (on b2 b3) (on-table b1) (holding b4) (on b3 b1));-5
+((on-table b4) (clear b2) (clear b1) (arm-empty) (on-table b3) (on b1 b3) (clear b4) (on-table b2));0
+((clear b1) (on b4 b2) (arm-empty) (on-table b1) (on-table b2) (on b3 b4) (clear b3));0
+((on-table b4) (on b1 b4) (clear b2) (arm-empty) (on b2 b3) (on b3 b1));-4
+((on-table b4) (arm-empty) (clear b4) (on-table b2) (clear b3) (on b1 b2) (on b3 b1));-2
+((clear b2) (on b4 b1) (arm-empty) (on-table b3) (clear b4) (on-table b1) (on-table b2) (clear b3));-2
+((on-table b4) (arm-empty) (clear b4) (on-table b1) (clear b3) (on b2 b1) (on b3 b2));-4
+((on b4 b1) (arm-empty) (on-table b3) (clear b4) (on-table b2) (clear b3) (on b1 b2));-2
+((on-table b4) (clear b1) (arm-empty) (on-table b2) (on b3 b4) (clear b3) (on b1 b2));0
+((clear b2) (on-table b1) (on-table b2) (holding b4) (clear b3) (on b3 b1));-3
+((on b4 b2) (on-table b3) (on b2 b3) (clear b4) (holding b1));-1
+((on-table b4) (on b2 b4) (clear b3) (holding b1) (on b3 b2));-1
+((on-table b4) (on b1 b4) (arm-empty) (clear b3) (on b2 b1) (on b3 b2));-4
+((arm-empty) (clear b4) (on-table b2) (on b4 b3) (on b1 b2) (on b3 b1));-4
+((clear b1) (on b4 b2) (arm-empty) (on-table b3) (on b2 b3) (clear b4) (on-table b1));0
+((on b2 b4) (on b4 b1) (arm-empty) (on-table b1) (clear b3) (on b3 b2));-6
+((on-table b4) (on b1 b4) (clear b1) (clear b2) (arm-empty) (on-table b3) (on b2 b3));0
+((on b4 b2) (on-table b3) (clear b4) (on-table b2) (clear b3) (holding b1));-1
+((on b2 b4) (clear b2) (on b4 b1) (arm-empty) (on-table b3) (on-table b1) (clear b3));-4
+((on-table b4) (on b1 b4) (clear b2) (arm-empty) (on-table b2) (clear b3) (on b3 b1));-2
+((clear b1) (on-table b3) (on b2 b3) (holding b4) (on b1 b2));-1
+((on-table b4) (on b2 b4) (clear b1) (clear b2) (arm-empty) (on-table b3) (on b1 b3));0
+((clear b2) (on-table b3) (on-table b1) (holding b4) (clear b3) (on b2 b1));-3
+((on b4 b2) (arm-empty) (clear b4) (on-table b1) (on-table b2) (clear b3) (on b3 b1));-2
+((clear b1) (on b4 b2) (arm-empty) (on b1 b3) (on-table b2) (on b3 b4));0
+((on b2 b4) (clear b2) (arm-empty) (on-table b1) (on b4 b3) (on b3 b1));-6
+((on-table b4) (clear b4) (on-table b1) (clear b3) (holding b2) (on b3 b1));-3
+((clear b1) (on b1 b4) (on b4 b2) (on-table b2) (holding b3));-1
+((clear b1) (on b1 b4) (on-table b3) (on b4 b3) (holding b2));-1
+((on-table b4) (on b1 b4) (clear b1) (arm-empty) (on-table b2) (clear b3) (on b3 b2));0
+((on-table b2) (holding b4) (clear b3) (on b1 b2) (on b3 b1));-3
+((on b1 b4) (clear b1) (arm-empty) (on-table b2) (on b4 b3) (on b3 b2));0
+((clear b2) (on b4 b1) (arm-empty) (on-table b3) (on b2 b3) (clear b4) (on-table b1));-2
+((on-table b4) (clear b1) (arm-empty) (on-table b3) (clear b4) (on-table b2) (clear b3) (on b1 b2));0
+((on b1 b4) (on b4 b2) (arm-empty) (on-table b2) (clear b3) (on b3 b1));-2
+((on-table b4) (clear b1) (on-table b1) (on b3 b4) (clear b3) (holding b2));-1
+((on-table b4) (on b2 b4) (arm-empty) (clear b3) (on b1 b2) (on b3 b1));-2
+((clear b2) (on-table b3) (clear b4) (on-table b2) (on b4 b3) (holding b1));-1
+((on-table b4) (clear b2) (clear b4) (on-table b1) (on b2 b1) (holding b3));-3
+((clear b2) (clear b1) (on-table b3) (on-table b1) (on-table b2) (holding b4) (clear b3));-1
+((on-table b4) (clear b1) (arm-empty) (on b2 b3) (on b3 b4) (on b1 b2));0
+((on-table b4) (clear b2) (on-table b3) (clear b4) (on-table b2) (clear b3) (holding b1));-1
+((on-table b4) (on b1 b4) (clear b3) (holding b2) (on b3 b1));-3
+((on b1 b4) (clear b1) (on b4 b2) (arm-empty) (on-table b3) (on b2 b3));0
+((clear b2) (clear b1) (on-table b3) (on b2 b3) (on-table b1) (holding b4));-1
+((on-table b4) (clear b2) (arm-empty) (clear b4) (on-table b1) (on-table b2) (clear b3) (on b3 b1));-2
+((on-table b4) (clear b1) (arm-empty) (clear b4) (on-table b1) (on-table b2) (clear b3) (on b3 b2));0
+((on b4 b2) (arm-empty) (on-table b3) (clear b4) (on-table b1) (clear b3) (on b2 b1));-4
+((on b4 b2) (on-table b2) (on b3 b4) (clear b3) (holding b1));-1
+((clear b2) (on b4 b1) (clear b4) (on-table b1) (on-table b2) (holding b3));-3
+((on-table b4) (clear b1) (on b1 b4) (on-table b3) (clear b3) (holding b2));-1
+((on-table b4) (clear b2) (on b2 b4) (on-table b3) (clear b3) (holding b1));-1
+((on-table b4) (clear b1) (on b2 b4) (on b1 b2) (holding b3));-1
+((clear b2) (on b2 b4) (on b4 b1) (on-table b1) (holding b3));-5
+((on b4 b1) (clear b4) (on-table b2) (on b1 b2) (holding b3));-3
+((on b4 b2) (arm-empty) (on-table b1) (on b3 b4) (clear b3) (on b2 b1));-6
+((on b4 b2) (arm-empty) (on-table b3) (on b1 b3) (clear b4) (on b2 b1));-4
+((on-table b4) (clear b1) (arm-empty) (on b1 b3) (clear b4) (on-table b2) (on b3 b2));0
+((on-table b4) (clear b2) (on-table b2) (on b3 b4) (clear b3) (holding b1));-1
+((on-table b4) (on b2 b4) (clear b1) (arm-empty) (on-table b1) (clear b3) (on b3 b2));0
+((on b2 b4) (clear b1) (clear b2) (arm-empty) (on-table b3) (on-table b1) (on b4 b3));0
+((on-table b4) (clear b4) (on-table b2) (clear b3) (holding b1) (on b3 b2));-1
+((on b2 b4) (clear b1) (arm-empty) (on-table b3) (on b4 b3) (on b1 b2));0
+((on-table b4) (clear b1) (clear b2) (clear b4) (on-table b1) (on-table b2) (holding b3));-1
+((on-table b4) (clear b1) (clear b4) (on-table b2) (on b1 b2) (holding b3));-1
+((on-table b4) (on b1 b4) (clear b2) (arm-empty) (on-table b3) (clear b3) (on b2 b1));-2
+((clear b1) (on-table b3) (on-table b2) (holding b4) (clear b3) (on b1 b2));-1
+((on-table b4) (clear b1) (on-table b3) (clear b4) (on-table b1) (clear b3) (holding b2));-1
+((clear b4) (on-table b1) (on b4 b3) (holding b2) (on b3 b1));-5
+((on-table b4) (clear b1) (on b2 b4) (clear b2) (on-table b1) (holding b3));-1
+((clear b4) (on-table b2) (on b4 b3) (holding b1) (on b3 b2));-1
+((on b4 b1) (arm-empty) (on-table b2) (on b3 b4) (clear b3) (on b1 b2));-4
+((on b4 b2) (clear b4) (on-table b1) (on b2 b1) (holding b3));-5
+((on b2 b4) (clear b2) (on b4 b1) (arm-empty) (on-table b3) (on b1 b3));-4
+((on-table b4) (clear b2) (on b2 b3) (on b3 b4) (holding b1));-1
+((on-table b4) (on b2 b4) (clear b2) (arm-empty) (on-table b1) (clear b3) (on b3 b1));-2
+((on-table b4) (on b1 b4) (clear b1) (clear b2) (arm-empty) (on-table b3) (on-table b2) (clear b3));0
+((on-table b4) (clear b1) (on b1 b4) (clear b2) (on-table b2) (holding b3));-1
+((clear b2) (on b4 b1) (arm-empty) (on-table b1) (on-table b2) (on b3 b4) (clear b3));-4
+((on-table b4) (clear b2) (arm-empty) (on-table b3) (clear b4) (on-table b1) (clear b3) (on b2 b1));-2
+((on b4 b2) (arm-empty) (on b2 b3) (clear b4) (on-table b1) (on b3 b1));-6
+((on-table b4) (clear b1) (arm-empty) (on-table b3) (on b2 b3) (clear b4) (on b1 b2));0
+((on b4 b1) (on-table b3) (on b1 b3) (clear b4) (holding b2));-3
+((clear b2) (clear b1) (on-table b3) (on b1 b3) (on-table b2) (holding b4));-1
+((on-table b4) (clear b2) (arm-empty) (on-table b1) (on b3 b4) (clear b3) (on b2 b1));-2
+((on b4 b1) (arm-empty) (clear b4) (on-table b1) (on-table b2) (clear b3) (on b3 b2));-2
+((on-table b4) (clear b1) (clear b2) (arm-empty) (on b2 b3) (on-table b1) (on b3 b4));0
+((on-table b1) (holding b4) (clear b3) (on b2 b1) (on b3 b2));-5
+((on b4 b1) (arm-empty) (on b1 b3) (clear b4) (on-table b2) (on b3 b2));-2
+((clear b2) (arm-empty) (on-table b3) (clear b4) (on-table b1) (on b4 b3) (on b2 b1));-2
+((on-table b4) (clear b2) (on-table b3) (on b2 b3) (clear b4) (holding b1));-1
+((clear b1) (clear b2) (arm-empty) (on-table b3) (clear b4) (on-table b1) (on-table b2) (on b4 b3));0
+((on b4 b1) (on-table b1) (on b3 b4) (clear b3) (holding b2));-5
+((clear b2) (on b2 b4) (on-table b3) (on b4 b3) (holding b1));-1
+((clear b1) (on b4 b2) (clear b4) (on-table b1) (on-table b2) (holding b3));-1
+((clear b1) (arm-empty) (on-table b3) (clear b4) (on-table b2) (on b4 b3) (on b1 b2));0
+((on b1 b4) (clear b2) (arm-empty) (on-table b3) (on b4 b3) (on b2 b1));-2
+((clear b1) (on-table b3) (clear b4) (on-table b1) (on b4 b3) (holding b2));-1
+((on-table b4) (clear b1) (clear b2) (arm-empty) (on-table b3) (clear b4) (on-table b1) (on-table b2) (clear b3));0
+((clear b1) (on-table b1) (on-table b2) (holding b4) (clear b3) (on b3 b2));-1
+((on-table b4) (clear b1) (clear b2) (arm-empty) (on-table b1) (on-table b2) (on b3 b4) (clear b3));0
