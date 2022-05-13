@@ -61,7 +61,7 @@ public:
 			std::string t = f.getToken();
 
 			if ( DOMAIN_DEBUG ) std::cout << t << "\n";
-
+			
 			if ( t == "STATE" ) parseSingleState( f );
 			else f.tokenExit( t );
 
@@ -83,7 +83,7 @@ public:
 		}
 		++f.c;
 
-		for ( unsigned i = 0; DOMAIN_DEBUG && i < init.size(); ++i )
+		for ( unsigned i = 0; DOMAIN_DEBUG && i < state.size(); ++i )
 			std::cout << "  " << state[i];
 
 	}
