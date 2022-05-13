@@ -68,7 +68,7 @@ public:
 	}
 
 
-	GroundVec parseSingleState( Filereader & f ) {
+	void parseSingleState( Filereader & f ) {
 
 
 		GroundVec state;
@@ -82,7 +82,6 @@ public:
 		for ( unsigned i = 0; DOMAIN_DEBUG && i < init.size(); ++i )
 			std::cout << "  " << state[i];
 
-		return state;
 	}
 
 	void parseDomain( Filereader & f ) {
