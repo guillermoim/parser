@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 
 	instance.parseStates(argv[3], states);
 
-	std::cout << instance.init;
+	//std::cout << instance.init;
 
 	std::cout << "BEGIN_OBJECTS\n";
 	for (unsigned i = 0; i < domain.types[0]->objects.size(); i++)
