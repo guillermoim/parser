@@ -78,7 +78,7 @@ public:
 
 		for ( f.next(); f.getChar() != ')'; f.next() ) {
 			f.assert_token( "(" );
-			parseGround( f, state );
+			parseGround( f, &state );
 		}
 		++f.c;
 
