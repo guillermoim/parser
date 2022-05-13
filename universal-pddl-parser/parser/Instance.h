@@ -63,6 +63,7 @@ public:
 			if ( DOMAIN_DEBUG ) std::cout << t << "\n";
 
 			if ( t == "STATE" ) parseSingleState( f );
+			else f.tokenExit( t );
 
 
 		}
@@ -78,7 +79,7 @@ public:
 
 		for ( f.next(); f.getChar() != ')'; f.next() ) {
 			f.assert_token( "(" );
-			parseGround( f, &state );
+			parseGround( f, state );
 		}
 		++f.c;
 
