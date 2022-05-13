@@ -52,7 +52,7 @@ public:
 	void parseStates(const std::string &s){
 		
 		Filereader f(s);
-		//name = f.parseName("PROBLEM");
+		name = f.parseName("PROBLEM");
 
 		for (;f.getChar() != ')'; f.next()){
 
