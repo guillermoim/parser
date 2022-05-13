@@ -38,6 +38,8 @@ int main(int argc, char *argv[])
 	Domain domain(argv[1]);
 	Instance instance(domain, argv[2]);
 
+	instance.parseStates(argv[3]);
+
 	std::cout << instance.init;
 
 	std::cout << "BEGIN_OBJECTS\n";
