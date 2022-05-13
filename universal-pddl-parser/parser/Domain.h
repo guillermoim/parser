@@ -18,7 +18,7 @@
 #include "EitherType.h"
 #include "When.h"
 
-#define DOMAIN_DEBUG true
+#define DOMAIN_DEBUG false
 
 namespace parser { namespace pddl {
 
