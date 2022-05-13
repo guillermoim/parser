@@ -59,6 +59,9 @@ public:
 			f.assert_token("(");
 			f.assert_token(":");
 			std::string t = f.getToken();
+
+			if ( DOMAIN_DEBUG ) std::cout << t << "\n";
+
 			if ( t == "STATE" ) parseSingleState( f );
 
 
