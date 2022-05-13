@@ -38,7 +38,9 @@ int main(int argc, char *argv[])
 	Domain domain(argv[1]);
 	Instance instance(domain, argv[2]);
 
-	instance.parseStates(argv[3]);
+	std::vector<GroundVec> states;
+
+	instance.parseStates(argv[3], states);
 
 	std::cout << instance.init;
 
@@ -65,6 +67,13 @@ int main(int argc, char *argv[])
 	std::cout << "BEGIN_STATE\n";
 	encode(instance.init, domain);
 	std::cout << "END_STATE\n";
+
+	for (GroundVec state:states){
+
+		encode(state, domain);
+	}
+
+
 	std::cout << "END_LABELED_STATE\n";
 	std::cout << "END_STATE_LIST\n";
 }

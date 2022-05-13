@@ -49,7 +49,7 @@ public:
 		}
 	}
 
-	void parseStates(const std::string &s){
+	void parseStates(const std::string &s, std::vector<GroundVec> &states){
 		
 		Filereader f(s);
 		name = f.parseName("PROBLEM");
@@ -62,7 +62,7 @@ public:
 
 			if ( DOMAIN_DEBUG ) std::cout << t << "\n";
 			
-			if ( t == "STATE" ) parseSingleState( f );
+			if ( t == "STATE" ) parseSingleState( f , states);
 			else f.tokenExit( t );
 
 
@@ -72,8 +72,7 @@ public:
 	}
 
 
-	void parseSingleState( Filereader & f ) {
-
+	void parseSingleState( Filereader & f , std::vector<GroundVec> &states) {
 
 		GroundVec state;
 
@@ -82,6 +81,8 @@ public:
 			parseGround( f, state );
 		}
 		++f.c;
+
+		states.push_back(state);
 
 		for ( unsigned i = 0; DOMAIN_DEBUG && i < state.size(); ++i )
 			std::cout << "  " << state[i];
