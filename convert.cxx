@@ -59,11 +59,11 @@ int main(int argc, char *argv[])
 	std::cout << "END_GOAL_LIST\n";
 
 	std::cout << "BEGIN_STATE_LIST\n";
-	std::cout << "1\n";
-	std::cout << "BEGIN_STATE\n";
-	encode(instance.init, domain);
-	std::cout << "END_STATE\n";
-	std::cout << "END_LABELED_STATE\n";
+	// std::cout << "1\n";
+	// std::cout << "BEGIN_STATE\n";
+	// encode(instance.init, domain);
+	// std::cout << "END_STATE\n";
+	// std::cout << "END_LABELED_STATE\n";
 
 	for (GroundVec state : states)
 	{
