@@ -27,9 +27,9 @@ void encode(GroundVec &vec, Domain &d)
 
 int main(int argc, char *argv[])
 {
-	if (argc < 3)
+	if (argc < 4)
 	{
-		std::cout << "Usage: ./convert <domain.pddl> <task.pddl>\n";
+		std::cout << "Usage: ./convert <domain.pddl> <task.pddl> <states.pddl>\n";
 		exit(1);
 	}
 
@@ -40,8 +40,6 @@ int main(int argc, char *argv[])
 	std::vector<GroundVec> states;
 
 	instance.parseStates(argv[3], states);
-
-	//std::cout << instance.init;
 
 	std::cout << "BEGIN_OBJECTS\n";
 	for (unsigned i = 0; i < domain.types[0]->objects.size(); i++)
@@ -61,15 +59,16 @@ int main(int argc, char *argv[])
 	std::cout << "END_GOAL_LIST\n";
 
 	std::cout << "BEGIN_STATE_LIST\n";
-	std::cout << "BEGIN_LABELED_STATE\n";
 	std::cout << "1\n";
 	std::cout << "BEGIN_STATE\n";
 	encode(instance.init, domain);
 	std::cout << "END_STATE\n";
 	std::cout << "END_LABELED_STATE\n";
 
+	std::cout << "BEGIN_STATE_LIST\n";
 
-	for (GroundVec state:states){
+	for (GroundVec state : states)
+	{
 		std::cout << "BEGIN_LABELED_STATE\n";
 		std::cout << "1\n";
 		std::cout << "BEGIN_STATE\n";
@@ -77,7 +76,6 @@ int main(int argc, char *argv[])
 		std::cout << "END_STATE\n";
 		std::cout << "END_LABELED_STATE\n";
 	}
-
 
 	std::cout << "END_STATE_LIST\n";
 }
