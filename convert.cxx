@@ -65,8 +65,6 @@ int main(int argc, char *argv[])
 	std::cout << "END_STATE\n";
 	std::cout << "END_LABELED_STATE\n";
 
-	std::cout << "BEGIN_STATE_LIST\n";
-
 	for (GroundVec state : states)
 	{
 		std::cout << "BEGIN_LABELED_STATE\n";
